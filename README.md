@@ -1,4 +1,4 @@
-Original App Design Project - README Template
+SchoolStop - README Template
 ===
 
 # SchoolStop
@@ -15,11 +15,11 @@ This is an app that lets you keep track of all of your school-related needs.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Education
-- **Mobile:** 
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Mobile:** Users have access to many tools they can use in school such as access to YouTube tutorial videos, assignment checklists, among others.
+- **Story:** Users will be able to use tools that create a better learning experience for teachers and students.
+- **Market:** For people who need to stay organized. For people who want to know how they are doing in their classes and what they need to do to improve their performance in school.
+- **Habit:** It helps students stay organized daily and can get reminders to do assignments, and have access to student resources to get caught up or get ahead in the classroom.  
+- **Scope:** This app will start off with just being able to post photos to share with other users (students/teachers). This allows students and teachers to communicate with one another through photos.
 
 ## Product Spec
 
@@ -27,40 +27,69 @@ This is an app that lets you keep track of all of your school-related needs.
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can view a scrolling list of reminders needed to get done for their classes
+* Users can add/remove items to the scrolling list of reminders 
+* Users can view up to 10 reminders on their list of reminders
+* Users can view a feed of posts (of 10 posts) that contain photos of their homework/assignments 
+* Users can post photos of their assignments to the feed of homework/assignments
+* Users can view their current grade on the screen
+* Users can calculate the minimum required grade they need (using Rogerhub's Final Grade Calculator as a base) on a final exam to earn a target grade.
+* Users can search for video tutorial links using the YouTube API 
+* Users can view selected videos from a scrolling list to get help on certain homework assignments
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can view many reminders through the use of infinite scroll
+* Users can like posts that appear in their feed
+* Users can comment on posts seen in their feed
+* Users can view a feed of many posts using infinite scroll
+* Users can view the graded assignments to view how their average grade is calculated
+* Users can view YouTube videos in landscape mode
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+Video Tutorial Screen
+ * Users can search for video tutorial links using the YouTube API 
+ * Users can view selected videos from a scrolling list to get help on certain homework assignments 
+
+To-Do Screen
+ * Users can view a scrolling list of reminders needed to get done for their classes
+ * Users can add/remove items to the scrolling list of reminders
+ * Users can view up to 10 reminders on their list of reminders 
+
+Grade Calculator Screen
+   * Users can view their current, up-to date grades.
+   * Users can calculate the minimum required grade they need (using something similar to Rogerhub's Final Grade Calculator) on a final exam to earn a certain target grade.
+
+Support/Posts Screen
+  * Users can view a feed of posts (of 10 posts) that contain photos of their homework/assignments
+  * Users can post photos of their assignments to the feed of homework/assignments
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Video Tutorial
+* To-Dos
+* Grade Calculator
+* Support/Posts
 
 **Flow Navigation** (Screen to Screen)
+* Video Tutorial
+   * Users will be presented with a list of suggested videos as well as a search bar to look up other YouTube video tutorials.
+   * When user searches up a keyword (or keywords), they will be presented with appropriate YouTube videos that match up their search request, and can view those selected videos.
+* To-Dos
+   * Users can scroll through a list of to-dos for their assignments. 
+   * Users can add in reminders for their assignments.
+   * Users can edit their reminders and check off reminders to label them as complete.
+* Grade Calculator
+   * Users can view their current, up-to date grades.
+   * Users can calculate the minimum required grade they need (using something similar to Rogerhub's Final Grade Calculator) on a final exam to earn a certain target grade.
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
-
+* Support/Posts
+   * Users can post photos of their assignments to the feed of homework/assignments.
+   * Users can respond to one another through their own support threads started by users.
+  
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
