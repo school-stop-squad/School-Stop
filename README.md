@@ -95,6 +95,8 @@ Support/Posts Screen
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+![SchoolStop Digital Wireframe](https://user-images.githubusercontent.com/46176613/156629584-6849c363-a1e3-43f3-a4dd-2e4094886d15.png)
+
 
 ### [BONUS] Interactive Prototype
 
