@@ -91,8 +91,8 @@ Support/Posts Screen
    * Users can respond to one another through their own support threads started by users.
   
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![834CF890-A1B2-476C-90E3-992ACF899283](https://user-images.githubusercontent.com/65309888/157168858-18d1649e-ecd4-4272-9042-80f24990c979.JPG)
+
 
 ### [BONUS] Digital Wireframes & Mockups
 ![](https://i.imgur.com/qhV0WXc.png)
