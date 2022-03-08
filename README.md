@@ -95,7 +95,7 @@ Support/Posts Screen
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-![SchoolStop Digital Wireframe](https://user-images.githubusercontent.com/46176613/156629584-6849c363-a1e3-43f3-a4dd-2e4094886d15.png)
+![](https://i.imgur.com/qhV0WXc.png)
 
 
 ### [BONUS] Interactive Prototype
@@ -103,8 +103,40 @@ Support/Posts Screen
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+- Support/Posts Screen
+    - Home Feed Screen
+         ```swift
+         let query = PFQuery(className:"Post")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+
+### POST
+
+- Base URL - [https://api.got.show/api](https://api.got.show/api)
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /numLikes | gets # of likes 
+    `GET`    | /user/byId/:id | gets specific user by :id
+    `GET`    | /comments | gets all comments
+    `GET`    | /imgURL | gets image URL 
+    
 ### Networking
-- [Add list of network requests by screen ]
+##### YouTube
+- Base URL - [https://api.got.show/api](https://api.got.show/api)
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /youtubeKey | gets key for video link
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
