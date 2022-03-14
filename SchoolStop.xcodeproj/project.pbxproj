@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ED8A79F27E0068B00540DA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */; };
 		4EE8736027DFFBC100C00058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8735F27DFFBC100C00058 /* AppDelegate.swift */; };
 		4EE8736227DFFBC100C00058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8736127DFFBC100C00058 /* SceneDelegate.swift */; };
 		4EE8736427DFFBC100C00058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8736327DFFBC100C00058 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4EE8735C27DFFBC100C00058 /* SchoolStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE8735F27DFFBC100C00058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE8736127DFFBC100C00058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				4EE8736127DFFBC100C00058 /* SceneDelegate.swift */,
 				4EE8736327DFFBC100C00058 /* ViewController.swift */,
 				4EE8736527DFFBC100C00058 /* Main.storyboard */,
+				4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */,
 				4EE8736827DFFBC400C00058 /* Assets.xcassets */,
 				4EE8736A27DFFBC400C00058 /* LaunchScreen.storyboard */,
 				4EE8736D27DFFBC400C00058 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED8A79F27E0068B00540DA8 /* LoginViewController.swift in Sources */,
 				4EE8736427DFFBC100C00058 /* ViewController.swift in Sources */,
 				4EE8736027DFFBC100C00058 /* AppDelegate.swift in Sources */,
 				4EE8736227DFFBC100C00058 /* SceneDelegate.swift in Sources */,
