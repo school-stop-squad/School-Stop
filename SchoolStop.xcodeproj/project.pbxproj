@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EC1727E27E050D200F1EA0A /* SchoolStop Part 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4EC1727D27E050D200F1EA0A /* SchoolStop Part 1.gif */; };
 		4ED8A79F27E0068B00540DA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */; };
 		4EE8736027DFFBC100C00058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8735F27DFFBC100C00058 /* AppDelegate.swift */; };
 		4EE8736227DFFBC100C00058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8736127DFFBC100C00058 /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EC1727D27E050D200F1EA0A /* SchoolStop Part 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "SchoolStop Part 1.gif"; sourceTree = "<group>"; };
 		4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4EE8735C27DFFBC100C00058 /* SchoolStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE8735F27DFFBC100C00058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */,
 				4EE8736827DFFBC400C00058 /* Assets.xcassets */,
 				4EE8736A27DFFBC400C00058 /* LaunchScreen.storyboard */,
+				4EC1727D27E050D200F1EA0A /* SchoolStop Part 1.gif */,
 				4EE8736D27DFFBC400C00058 /* Info.plist */,
 			);
 			path = SchoolStop;
@@ -237,6 +240,7 @@
 				4EE8736C27DFFBC400C00058 /* LaunchScreen.storyboard in Resources */,
 				4EE8736927DFFBC400C00058 /* Assets.xcassets in Resources */,
 				4EE8736727DFFBC100C00058 /* Main.storyboard in Resources */,
+				4EC1727E27E050D200F1EA0A /* SchoolStop Part 1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
