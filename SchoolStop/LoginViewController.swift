@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class LoginViewController: UIViewController {
 
@@ -14,18 +15,46 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
-    @IBAction func onLogin(_ sender: Any) {
-    }
     
-    @IBAction func onSignUp(_ sender: Any) {
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func onLogin(_ sender: Any) {
+        let username = loginTextField.text!
+        let password = passwordTextField.text!
+        
+        PFUser.logInWithUsername(inBackground:username, password:password) {
+          (user, error) in
+          if user != nil {
+            // Do stuff after successful login.
+              self.performSegue(withIdentifier: "loginSegue", sender: nil)
 
+          } else {
+            // The login failed. Check error to see why.
+              print("Error: \(error?.localizedDescription)")
+
+          }
+        }
+    }
+    
+    @IBAction func onSignUp(_ sender: Any) {
+        let user = PFUser()
+        user.username = loginTextField.text
+        user.password = passwordTextField.text
+        
+        user.signUpInBackground{(success,error) in
+            if error != nil {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }else{
+                print("Error: \(error?.localizedDescription)")
+            }
+    }
+    }
     /*
     // MARK: - Navigation
 
@@ -37,3 +66,4 @@ class LoginViewController: UIViewController {
     */
 
 }
+
