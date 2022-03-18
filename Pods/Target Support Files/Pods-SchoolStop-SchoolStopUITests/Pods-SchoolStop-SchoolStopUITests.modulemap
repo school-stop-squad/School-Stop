@@ -1,0 +1,6 @@
+framework module Pods_SchoolStop_SchoolStopUITests {
+  umbrella header "Pods-SchoolStop-SchoolStopUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
