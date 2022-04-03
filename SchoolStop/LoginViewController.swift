@@ -12,7 +12,6 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var loginTextField: UITextField!
     
-    
     @IBOutlet weak var passwordTextField: UITextField!
     
     
