@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3A07DE8795528C916A5A720F /* Pods_SchoolStop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F35E82D5DC6354D0563A98 /* Pods_SchoolStop.framework */; };
+		4ED2501527FCB09A002278F1 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2501427FCB09A002278F1 /* RemindersViewController.swift */; };
 		4ED8A79F27E0068B00540DA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */; };
 		4EE8736027DFFBC100C00058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8735F27DFFBC100C00058 /* AppDelegate.swift */; };
 		4EE8736227DFFBC100C00058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8736127DFFBC100C00058 /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 		02C588C4E3778FAA71489DC6 /* Pods-SchoolStop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolStop.release.xcconfig"; path = "Target Support Files/Pods-SchoolStop/Pods-SchoolStop.release.xcconfig"; sourceTree = "<group>"; };
 		1418C05CAA904A9A6242E628 /* Pods_SchoolStop_SchoolStopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolStop_SchoolStopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3F3363590CE908A165F6DA /* Pods-SchoolStop-SchoolStopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolStop-SchoolStopUITests.release.xcconfig"; path = "Target Support Files/Pods-SchoolStop-SchoolStopUITests/Pods-SchoolStop-SchoolStopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ED2501427FCB09A002278F1 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
 		4ED8A79E27E0068B00540DA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4EE8735C27DFFBC100C00058 /* SchoolStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE8735F27DFFBC100C00058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				6793AF89CA208EAE5E11FE4A /* Pods-SchoolStopTests.debug.xcconfig */,
 				FA53B41479618A3972A9D149 /* Pods-SchoolStopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,7 @@
 				4EE8736827DFFBC400C00058 /* Assets.xcassets */,
 				4EE8736A27DFFBC400C00058 /* LaunchScreen.storyboard */,
 				4EE8736D27DFFBC400C00058 /* Info.plist */,
+				4ED2501427FCB09A002278F1 /* RemindersViewController.swift */,
 			);
 			path = SchoolStop;
 			sourceTree = "<group>";
@@ -407,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED2501527FCB09A002278F1 /* RemindersViewController.swift in Sources */,
 				4ED8A79F27E0068B00540DA8 /* LoginViewController.swift in Sources */,
 				4EE8736027DFFBC100C00058 /* AppDelegate.swift in Sources */,
 				4EE8736227DFFBC100C00058 /* SceneDelegate.swift in Sources */,
