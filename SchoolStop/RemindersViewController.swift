@@ -15,16 +15,6 @@ class RemindersViewController: UIViewController, UITableViewDelegate, UITableVie
     
     var models = [AppReminder]()
     
-    private func preventLargeTitleCollapsing() {
-        
-        let dummyView = UIView()
-        
-        view.addSubview(dummyView)
-        
-        view.sendSubviewToBack(dummyView)
-    
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -74,25 +64,6 @@ class RemindersViewController: UIViewController, UITableViewDelegate, UITableVie
                 
                 content.body = body
                 
-                //create one-time notif
-                
-                let targetDate = Date().addingTimeInterval(10) //creates 10 second buffer
-                
-                let trigger = UNCalendarNotificationTrigger(dateMatching: Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: targetDate), repeats: false)
-                
-                let request = UNNotificationRequest(identifier: "some_long_id", content: content, trigger: trigger)
-                
-                //schedule notif (must close app to test)
-                
-                UNUserNotificationCenter.current().add(request) { error in
-                    
-                    if error != nil {
-                        
-                        print("Error in scheduling notification")
-                        
-                    }
-                    
-                }
                 
             }
             
@@ -101,69 +72,6 @@ class RemindersViewController: UIViewController, UITableViewDelegate, UITableVie
         navigationController?.pushViewController(vc, animated: true)
         
     }
-    
-    //go show reminder through notification
-    
-    @IBAction func didTapRemind() {
-        
-        //schedule notif
-        
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { success, error in
-            if success {
-                
-                //schedule test notif
-                
-                self.scheduleTest()
-                
-            } else if let error = error {
-                
-                print("Error occured: Sending notification")
-                
-            }
-            
-        })
-        
-    }
-    
-    
-    //reminder helper feature
-    
-    func scheduleTest() {
-        
-        //will schedule reminder based on dates
-        
-        let content = UNMutableNotificationContent()
-            
-        content.title = title
-        
-        content.sound = .default
-        
-        content.body = body
-        
-        //create one-time notif
-        
-        let targetDate = date
-        
-        let trigger = UNCalendarNotificationTrigger(dateMatching: Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: targetDate), repeats: false)
-        
-        let request = UNNotificationRequest(identifier: "some_long_id", content: content, trigger: trigger)
-        
-        //schedule notif (must close app to test)
-        
-        UNUserNotificationCenter.current().add(request) { error in
-            
-            if error != nil {
-                
-                print("Error in scheduling notification")
-                
-            }
-            
-        }
-        
-        
-        
-    }
-    
     
     
     

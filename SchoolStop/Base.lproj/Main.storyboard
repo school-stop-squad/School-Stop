@@ -267,7 +267,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Reminder Here!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="atK-KG-dJd">
-                                <rect key="frame" x="10" y="54" width="398" height="52"/>
+                                <rect key="frame" x="10" y="54" width="486" height="52"/>
                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="AF0-n2-hMO"/>
@@ -276,7 +276,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Give more details..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ox2-Qm-k8T">
-                                <rect key="frame" x="10" y="126" width="398" height="52"/>
+                                <rect key="frame" x="10" y="126" width="486" height="52"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" playsSound="YES"/>
                                 </accessibility>
@@ -287,7 +287,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0h4-96-QVx">
-                                <rect key="frame" x="10" y="188" width="320" height="728"/>
+                                <rect key="frame" x="10" y="188" width="408" height="728"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="416" id="c0h-SR-oPs"/>
                                 </constraints>
@@ -299,8 +299,6 @@
                             <constraint firstItem="6eY-LJ-sTo" firstAttribute="trailing" secondItem="ox2-Qm-k8T" secondAttribute="trailing" constant="-68" id="6vi-NQ-2dQ"/>
                             <constraint firstItem="0h4-96-QVx" firstAttribute="top" secondItem="ox2-Qm-k8T" secondAttribute="bottom" constant="10" id="EEA-tN-zT7"/>
                             <constraint firstItem="ox2-Qm-k8T" firstAttribute="top" secondItem="atK-KG-dJd" secondAttribute="bottom" constant="20" id="EJG-c3-Y4S"/>
-                            <constraint firstItem="0h4-96-QVx" firstAttribute="leading" secondItem="6eY-LJ-sTo" secondAttribute="leading" constant="10" id="I6o-4t-K2L"/>
-                            <constraint firstItem="6eY-LJ-sTo" firstAttribute="trailing" secondItem="0h4-96-QVx" secondAttribute="trailing" constant="10" id="LqS-q1-L6g"/>
                             <constraint firstAttribute="bottom" secondItem="0h4-96-QVx" secondAttribute="bottom" constant="10" id="P2m-cd-bC2"/>
                             <constraint firstAttribute="trailing" secondItem="0h4-96-QVx" secondAttribute="trailing" constant="10" id="PFX-rz-gUX"/>
                             <constraint firstAttribute="bottom" secondItem="0h4-96-QVx" secondAttribute="bottom" constant="10" id="PWg-sR-ldz"/>
